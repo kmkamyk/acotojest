@@ -74,7 +74,7 @@ Przykłady:
 * **no-flow-control** to rozszerzenie protokołu, które wyłącza kontrolę przepływu danych między klientem i serwerem.
 * **server-sig-algs** to rozszerzenie protokołu, które umożliwia klientowi negocjować algorytmy podpisu serwera z serwerem.
 
-żródła: 
+źródła: 
 1) https://ssh-comparison.quendi.de/comparison/extension.html
 2) https://bard.google.com/
 3) https://chat.openai.com/
