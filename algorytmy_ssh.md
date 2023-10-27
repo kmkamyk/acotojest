@@ -1,6 +1,7 @@
 Krótkie wyjaśnienie każdego z algorytmów i rozszerzeń protokołów używanych w SSH:
 
 **Ciphers (algorytmy szyfrowania)**:
+Szyfrują dane przesyłane przez sieć w celu ochrony przed nieautoryzowanym dostępem.
 
 * **AES-256-GCM** to algorytm szyfrowania symetrycznego, który jest uważany za bardzo bezpieczny.
 * **ChaCha20-Poly1305** to algorytm szyfrowania symetrycznego, który jest uważany za szybszy niż AES-256-GCM.
