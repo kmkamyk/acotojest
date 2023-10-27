@@ -12,14 +12,6 @@ Przykłady:
 * **ChaCha20-Poly1305** to algorytm szyfrowania symetrycznego, który jest uważany za szybszy niż AES-256-GCM.
 * **ECDH-ECDSA-AES256-GCM-SHA512** to zestaw algorytmów, które są używane do szyfrowania, uwierzytelniania i kompresji danych w SSH.
 
-**Compression formats (formaty kompresji)**:
-
-Kompresują dane przesyłane przez sieć w celu zmniejszenia ich rozmiaru.
-
-Przykłady:
-* **ZLIB** to popularny format kompresji danych, który jest używany w wielu aplikacjach.
-* **LZ4** to nowszy format kompresji danych, który jest uważany za szybszy niż ZLIB.
-
 **Hostkey formats (formaty kluczy hosta)**:
 
 Są używane do uwierzytelniania serwerów SSH. Klucz hosta to unikalny identyfikator serwera, który pozwala klientom upewnić się, że łączą się z właściwym serwerem.
@@ -61,6 +53,14 @@ Przykłady:
 * **password** to metoda uwierzytelniania, która wymaga od użytkownika podania hasła.
 * **publickey** to metoda uwierzytelniania, która wykorzystuje parę kluczy SSH (klucz publiczny i klucz prywatny) do uwierzytelnienia klienta.
 
+**Compression formats (formaty kompresji)**:
+
+Kompresują dane przesyłane przez sieć w celu zmniejszenia ich rozmiaru.
+
+Przykłady:
+* **ZLIB** to popularny format kompresji danych, który jest używany w wielu aplikacjach.
+* **LZ4** to nowszy format kompresji danych, który jest uważany za szybszy niż ZLIB.
+
 **Protocol extensions (rozszerzenia protokołów)**:
 
 Dodają nowe funkcjonalności do protokołu SSH.
@@ -73,3 +73,5 @@ Przykłady:
 * **global-requests-ok** to rozszerzenie protokołu, które umożliwia klientowi wysyłanie żądań globalnych do serwera.
 * **no-flow-control** to rozszerzenie protokołu, które wyłącza kontrolę przepływu danych między klientem i serwerem.
 * **server-sig-algs** to rozszerzenie protokołu, które umożliwia klientowi negocjować algorytmy podpisu serwera z serwerem.
+
+żródła: https://ssh-comparison.quendi.de/comparison/extension.html 
