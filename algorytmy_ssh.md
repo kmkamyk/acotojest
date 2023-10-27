@@ -1,4 +1,4 @@
-# **Algorytmy szyfrujące w protokole SSH**
+# **Algorytmy w protokole SSH**
 Secure Shell (SSH) to protokół sieciowy, który zapewnia bezpieczną komunikację między dwoma hostami. SSH jest często używany do zdalnego dostępu do serwerów, a także do przesyłania plików i wykonywania poleceń.
 
 Aby zapewnić bezpieczeństwo, SSH wykorzystuje różne mechanizmy, w tym szyfrowanie, uwierzytelnianie i kompresję. Poniżej znajduje się krótkie wyjaśnienie każdego z algorytmów i rozszerzeń protokołów używanych w protokole SSH:
